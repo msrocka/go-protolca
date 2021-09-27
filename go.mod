@@ -1,4 +1,4 @@
-module github.com/msrocka/protolca
+module github.com/msrocka/go-protolca
 
 go 1.15
 
