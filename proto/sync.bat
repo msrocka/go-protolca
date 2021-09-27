@@ -1,6 +1,10 @@
 @echo off
 
-if exist ..\..\olca-modules\olca-proto\src\main\proto (
-    xcopy /y ..\..\olca-modules\olca-proto\src\main\proto .
+set olcaproto=..\..\olca-proto\proto
+
+if exist %olcaproto% (
+    
+    xcopy /y %olcaproto% .
 )
-protoc --go_out=../. --go-grpc_out=../. *.proto
+
+protoc --proto_path=. --go_out=../. --go-grpc_out=../. *.proto
