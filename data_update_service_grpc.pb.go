@@ -180,5 +180,5 @@ var DataUpdateService_ServiceDesc = grpc.ServiceDesc{
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "data_update.proto",
+	Metadata: "data_update_service.proto",
 }

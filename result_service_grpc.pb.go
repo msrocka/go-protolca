@@ -663,5 +663,5 @@ var ResultService_ServiceDesc = grpc.ServiceDesc{
 			ServerStreams: true,
 		},
 	},
-	Metadata: "results.proto",
+	Metadata: "result_service.proto",
 }

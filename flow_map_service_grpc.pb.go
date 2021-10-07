@@ -248,5 +248,5 @@ var FlowMapService_ServiceDesc = grpc.ServiceDesc{
 			ServerStreams: true,
 		},
 	},
-	Metadata: "mappings.proto",
+	Metadata: "flow_map_service.proto",
 }

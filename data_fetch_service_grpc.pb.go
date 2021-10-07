@@ -498,5 +498,5 @@ var DataFetchService_ServiceDesc = grpc.ServiceDesc{
 			ServerStreams: true,
 		},
 	},
-	Metadata: "data_fetch.proto",
+	Metadata: "data_fetch_service.proto",
 }
